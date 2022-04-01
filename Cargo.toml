@@ -3,5 +3,7 @@ name = "First_Rust"
 version = "0.1.0"
 edition = "2021"
 
+include=["/Ali","/src"]
+
 [dependencies]
 time="0.3.7"

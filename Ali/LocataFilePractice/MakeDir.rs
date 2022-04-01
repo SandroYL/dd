@@ -96,3 +96,33 @@ impl dirs {
     }
 
 }
+
+
+        // pub fn serialize(&self, filepath: String) 
+    // {
+    //     let mut file = match File::create(filepath) 
+    //     {
+    //         Ok(file) => file,
+    //         Err(_) => return,
+    //     };
+    //     for (key, value) in &self.file_filepath 
+    //     {
+    //         let mut key_str = key.clone();
+    //         key_str.push_str("\n");
+    //         match file.write_all(key_str.as_bytes()) 
+    //         {
+    //             Ok(_) => (),
+    //             Err(_) => return,
+    //         };
+    //         for v in value 
+    //         {
+    //             let mut v_str = v.clone();
+    //             v_str.push_str("\n");
+    //             match file.write_all(v_str.as_bytes()) 
+    //             {
+    //                 Ok(_) => (),
+    //                 Err(_) => return,
+    //             };
+    //         }
+    //     }
+    // }
